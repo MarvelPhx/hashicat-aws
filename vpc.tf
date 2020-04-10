@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "MarvelPhx/terraform-aws-vpc"
+  source = "../terraform-aws-vpc"
 
   name = "my-vpc"
   cidr = "10.0.0.0/16"
